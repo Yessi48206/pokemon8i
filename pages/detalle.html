@@ -23,14 +23,14 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-danger">
             <div class="container ">
-              <a class="navbar-brand text-light" href="index.html">Pokedex</a>
+              <a class="navbar-brand text-light" href="../index.html">Pokedex</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarabajo" aria-controls="navbarabajo" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarabajo">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link text-light active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link text-light active" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   
                   <li class="nav-item dropdown">
@@ -54,6 +54,41 @@
             </div>
           </nav>
     </header>
+    <main class="container my-4">
+        <div id="carouselpokemon" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselpokemon" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselpokemon" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselpokemon" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="../img/pexels-carolina-castilla-arias-1716861.jpg" alt="bola de pokemon" class="imagen" width="100%">
+              </div>
+              <div class="carousel-item">
+               <img src="../img/pexels-kenneth-gorzal-surillo-5157362.jpg" alt="pikachu" class="imagen" width="100%">
+              </div>
+              <div class="carousel-item ">
+                <img src="../img/pexels-vincent-ma-janssen-1310847.jpg" class=" imagen" alt="casamiento de pikachu" width="100%">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselpokemon" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselpokemon" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p>Los datos fueron tomados de la siguiente web <a href="https://www.pokemon.com/es/pokedex/">https://www.pokemon.com/es/pokedex/</a> </p>
+    </main>
     
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+crossorigin="anonymous"
+></script>
 </html>
