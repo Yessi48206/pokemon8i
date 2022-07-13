@@ -3,3 +3,7 @@
    height: 350px;
     
 }
+.borderpokemo{
+    border-radius: 10px;
+    background-color: rgb(191, 193, 195);
+}
